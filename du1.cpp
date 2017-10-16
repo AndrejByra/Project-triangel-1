@@ -1,23 +1,19 @@
 #include<stdio.h>
 int main()
 {
-	int x;
-	int y;
-	int z;
-	
-	printf("Strana x: ");
+	int x, y, z;
+	printf("Side x: ");
 	scanf("%d",&x);
-	printf("Strana y: ");
+	printf("Side y: ");
 	scanf("%d",&y);
-	printf("Strana z: ");
+	printf("Side z: ");
 	scanf("%d",&z);
-	
 	if(x+y>z && z+y>x && z+x>y)
 		{
 			printf("Da sa zostrojit ");
 		}
 			printf("Neda sa ");
 			
-
+return 0;
 }
 
